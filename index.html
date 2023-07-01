@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>AA Survey</title>
+    </head>
+    <body>
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Add user</legend>
+
+                <div>
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="last_name"></id>
+                </div>
+
+                <div>
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <div>
+                    <label for="Status">Status</label>
+                    <select id="Status" name="Status">
+                        <option value="Student">Student</option>
+                        <option value="Teacher">Teacher</option>
+                        <option value="Guest">Guest</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Choose your favorite programming language:</p>
+                    <input type="radio" id="HTML" name="html">
+                    <label for="HTML">HTML</label>
+                    <br>
+                    <input type="radio" id="CSS" name="css">
+                    <label for="CSS">CSS</label>
+                    <br>
+                    <input type="radio" id="JavaScript" name="java_script">
+                    <label for="JavaScript">JavaScript</label>
+                </div>
+
+                <div>
+                    <label for="textArea">Comments</label>
+                    <textarea id="textArea" name="textArea"></textarea>
+                </div>
+
+                <div>
+                    <label for="date">Current date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+
+                <div>
+                    <input type="checkbox" id="newsletter" name="news_letter">
+                    <label for="newsletter">Sign up for newsletter</label>
+
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">Agree to terms and conditions</label>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
